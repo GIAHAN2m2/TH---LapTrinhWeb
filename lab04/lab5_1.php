@@ -1,0 +1,16 @@
+<h2>NguyenGiaHan_DH52200624</h2>
+<?php
+ $a = array(1, 3, 5); 
+function showArray($arr)
+{
+    echo "<table border=1 cellspacing=0>
+                <tr><th>Index</th> <th>Value</th></tr>";
+    foreach ($arr as $key => $value) {
+        echo "<tr align=center><td>" . $key . "</td><td>" . $value . "</td></tr>";
+    }
+    echo "</table>";
+}
+showArray($a)
+?>
+
+</h3>
