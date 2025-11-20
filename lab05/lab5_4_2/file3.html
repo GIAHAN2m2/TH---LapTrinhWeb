@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="file3.php" method="get">
+        "Nhap ten san pham can tim"
+        <input type="text" name="ten" required> 
+        <br>
+        "Cach tim:"
+        <input type="radio" name="ct" value="Gan dung">
+        "Gan dung:"
+        <input type="radio" name="ct" value="Chinh xac"> 
+        "Chinh xac:"
+        <br>
+        "Loai san pham"
+        <br>
+        <input type="checkbox" name="loai[]" value="Loai 1"><br>
+        "Loai 1"
+        <input type="checkbox" name="loai[]" value="Loai 2"><br>
+        "Loai 2"
+        <input type="checkbox" name="loai[]" value="Loai 3"><br>
+        "Loai 3"
+        <input type="checkbox" name="loai[]" value="Tat Ca"><br>
+        "Tat ca"
+        <br>
+        <input type="submit" onclick="checkAll();">
+    </form>
+</body>
+</html>
